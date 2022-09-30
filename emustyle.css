@@ -1,0 +1,134 @@
+body {
+  background-image: url('bakgrunn2.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-width: 2400px;
+  background-repeat: no-repeat;
+}
+
+header *{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header-img {
+  width: 100%;
+  position:fixed;
+
+   
+
+  
+}
+
+   html, body {
+                width: 100%;
+                height: 107%;
+               
+            }
+
+
+
+footer {
+  padding: 0.19%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: -26%;
+  width: 99.63%;
+   max-width: 1700px;
+  height: 12%;
+}
+
+
+  .footertext {
+    padding-right: 10px;
+    padding-left: 10px;
+    position: absolute;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    line-height: 0px;
+    
+  }
+
+
+
+.wrapper {
+
+  width:  100%;
+}
+
+
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -10%;
+     margin-top:  -10%;
+height:auto; 
+width: 20%;
+max-height: 300px;
+object-fit: contain;
+}
+
+@media only screen and (max-width: 760px){
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -20%;
+     margin-top:  -20%;
+height:auto; 
+width: 40%;
+max-height: 300px;
+object-fit: contain;
+}
+
+body {
+  background-image: url('bakgrunn mobil.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-width: 2400px;
+  background-repeat: no-repeat;
+}
+
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 760px){
+body {
+  background-image: url('bakgrunn ipad.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-width: 2400px;
+  background-repeat: no-repeat;
+}
+
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -30%;
+     margin-top:  -30%;
+height:auto; 
+width: 60%;
+max-height: 300px;
+object-fit: contain;
+}
+
+
+  }
