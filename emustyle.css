@@ -1,0 +1,258 @@
+body {
+  background-image: url('bakgrunn2.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+header *{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header-img {
+  width: 100%;
+  position:fixed;
+
+   
+
+  
+}
+
+   html, body {
+                width: 100%;
+                height: 107%;
+               
+            }
+
+
+
+footer {
+  padding: 0.19%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: -21%;
+  width: 99.63%;
+  height: 12%;
+}
+
+
+  .footertext {
+    padding-right: 20%;
+    padding-left: 20%;
+    position: sticky;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 3.4%;
+    
+  }
+
+
+    .footertext2 {
+    padding-right: 20%;
+    padding-left: 20%;
+    position: sticky;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    line-height: 0px;
+    float: right;
+    text-align: right;
+
+
+  }
+
+
+
+.wrapper {
+
+  width:  100%;
+}
+
+
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -10%;
+     margin-top:  -10%;
+height:auto; 
+width: 20%;
+max-height: 300px;
+object-fit: contain;
+}
+
+
+.dancing {
+position:relative; 
+left: 1%;
+bottom: 15%;
+width:4%; 
+height:auto;">
+}
+
+.dancing2 {
+position:relative; 
+right: 2%;
+bottom: 15%;
+width:4%; 
+height:auto;
+float: right;
+}
+
+
+
+@media only screen and (max-width: 760px){
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -20%;
+     margin-top:  -20%;
+height:auto; 
+width: 40%;
+max-height: 300px;
+object-fit: contain;
+}
+
+body {
+  background-image: url('bakgrunn mobil.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+background-color: black;
+}
+
+.dancing {
+position:relative; 
+left: 1%;
+bottom: 19%;
+width:10%; 
+height:auto;">
+}
+
+.dancing2 {
+position:relative; 
+right: 2%;
+bottom: 19%;
+width:10%; 
+height:auto;
+float: right;
+}
+
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 760px){
+body {
+  background-image: url('bakgrunn ipad.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -30%;
+     margin-top:  -30%;
+height:auto; 
+width: 60%;
+max-height: 300px;
+object-fit: contain;
+}
+
+.dancing {
+position:relative; 
+left: 2%;
+bottom: 20%;
+width:8%; 
+height:auto;">
+}
+
+.dancing2 {
+position:relative; 
+right: 3%;
+bottom: 20%;
+width:8%; 
+height:auto;
+float: right;
+}
+
+
+
+
+  }
+
+@media only screen and (max-height: 600px){
+body {
+  background-image: url('bakgrunn ipad.jpg');
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.knapp {
+position:fixed;
+     left: 50%;
+     top:  50%;
+     margin-left: -12%;
+     margin-top:  -12%;
+height:auto; 
+width: 24%;
+max-height: 300px;
+object-fit: contain;
+}
+
+.dancing {
+position:relative; 
+left: 2%;
+bottom: 20%;
+width:5%; 
+height:auto;">
+}
+
+.dancing2 {
+position:relative; 
+right: 3%;
+bottom: 20%;
+width:5%; 
+height:auto;
+float: right;
+}
+
+footer {
+  padding: 0.19%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: -75%;
+  width: 99.63%;
+  height: 12%;
+}
+
+}
